@@ -1,0 +1,41 @@
+div.inner-wrap{
+    height: 100vh;
+}
+
+div.leftnav{
+    background-color: #4A3686;
+    height: 93vh;
+   
+}
+div.leftnav>ul>li>a{
+    color:#fff;
+}
+
+/* unvisited link */
+div.leftnav>ul>li>a:link {
+    color: #fff;
+}
+
+/* visited link */
+div.leftnav>ul>li>a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+div.leftnav>ul>li>a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+div.leftnav>ul>li>a:active {
+    color: #0000FF;
+}
+
+/* Define mobile styles */
+@media only screen and (max-width: 40em) {
+
+   div.leftnav{
+    background-color: red; 
+} 
+
+} 
